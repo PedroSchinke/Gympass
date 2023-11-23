@@ -12,7 +12,7 @@ GymPass
 - [x] Deve ser possível o usuário buscar academias próximas (até 10km);
 - [x] Deve ser possível o usuário buscar academias pelo nome;
 - [x] Deve ser possível o usuário realizar check-in em uma academia;
-- [ ] Deve ser possível validar o check-in de um usuário;
+- [x] Deve ser possível validar o check-in de um usuário;
 - [x] Deve ser possível cadastrar uma academia;
 
 ## RNs (Regras de negócio)
@@ -20,7 +20,7 @@ GymPass
 - [x] O usuário não deve poder se cadastrar com um email duplicado;
 - [x] O usuário não pode fazer dois check-ins no mesmo dia;
 - [x] O usuário não pode fazer check-in se não estiver perto (100m) da academia;
-- [ ] O check-in só pode ser validade até 20 minutos após criad;
+- [x] O check-in só pode ser validade até 20 minutos após criad;
 - [ ] O check-in só pode ser validado por administradores;
 - [ ] A academia só pode ser cadastrada por administradores;
 
