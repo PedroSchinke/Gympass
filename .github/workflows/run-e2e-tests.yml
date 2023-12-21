@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     services:
-      gympass-pg:
+      postgres:
         image: bitnami/postgresql
         ports: 
           - 5432:5432
