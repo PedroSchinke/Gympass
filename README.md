@@ -18,22 +18,6 @@
 
 ---
 
-<h2>Tecnologias Utilizadas no Projeto</h2>
-
-- Node.js
-- Typescript
-- Fastify
-- Docker
-- Prisma
-- Jsonwebtoken
-- Bcrypt.js
-- Zod Resolver
-- Eslint
-- Vitest
-- Supertest
-- Dotenv
-- Tsx
-
 ## Requisitos Funcionais da aplicação
 
 - Deve ser possível se cadastrar;
@@ -62,6 +46,25 @@
 - Os dados da aplicação precisam estar persistidas em um banco PostgreSQL;
 - Todas listas de dados precisam estar paginadas com 20 itens por página;
 - O usuário deve ser identificado por um JWT (JSON Web Token);
+
+---
+
+<h2>Tecnologias Utilizadas no Projeto</h2>
+
+- Node.js
+- Typescript
+- Fastify
+- Docker
+- Prisma
+- Jsonwebtoken
+- Bcrypt.js
+- Zod Resolver
+- Eslint
+- Vitest
+- Supertest
+- Dotenv
+- Tsx
+
 
 <div id="footer" align="center">
 <a href="https://www.linkedin.com/in/pedro-schinke-17b866223/" target="_blank">
