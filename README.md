@@ -1,8 +1,40 @@
-# App
+<h1 align="center">GymPass API</h1>
 
-GymPass
+<h3 align="center">GymPass é uma API de serviço de check-in em academias, sendo o check-in feito pelo usuário e validado por administradores. É possível para o usuário buscar as academias cadastradas pelo nome ou por proximidade, assim como administradores cadastrarem novas academias. O usuário também pode ter acesso às suas métricas de check-ins realizados. Todos os perfis tem suas senhas criptografadas e passam por um processo de autenticação por JWT para poderem acessar seus dados e métricas. Desenvolvido com Node.js, TypeScript e Fastify.</h3>
 
-## RFs (Requisitos funcionais)
+---
+
+<h2>O que eu aprendi desenvolvendo o projeto</h2>
+
+<br>
+
+- `Docker` para implementação do software em um pacote (contêiner) isolado.
+- `Prisma` para a criação de schemas e migrations de tabelas para o banco de dados.
+- `Vitest` e `Supertest` para a realização de testes nas rotas da aplicação.
+- `Dotenv` para gerenciar variáveis de ambiente.
+- `Dayjs` para a manipulação de datas e horários.
+
+<br>
+
+---
+
+<h2>Tecnologias Utilizadas no Projeto</h2>
+
+- Node.js
+- Typescript
+- Fastify
+- Docker
+- Prisma
+- Jsonwebtoken
+- Bcrypt.js
+- Zod Resolver
+- Eslint
+- Vitest
+- Supertest
+- Dotenv
+- Tsx
+
+## Requisitos Funcionais da aplicação
 
 - [x] Deve ser possível se cadastrar;
 - [x] Deve ser possível se autenticar;
@@ -15,18 +47,27 @@ GymPass
 - [x] Deve ser possível validar o check-in de um usuário;
 - [x] Deve ser possível cadastrar uma academia;
 
-## RNs (Regras de negócio)
+## Regras de Negócio da aplicação
 
 - [x] O usuário não deve poder se cadastrar com um email duplicado;
 - [x] O usuário não pode fazer dois check-ins no mesmo dia;
 - [x] O usuário não pode fazer check-in se não estiver perto (100m) da academia;
 - [x] O check-in só pode ser validade até 20 minutos após criad;
-- [ ] O check-in só pode ser validado por administradores;
-- [ ] A academia só pode ser cadastrada por administradores;
+- [x] O check-in só pode ser validado por administradores;
+- [x] A academia só pode ser cadastrada por administradores;
 
-## RNFs (Requisitos não funcionais)
+## Requisitos Não Funcionais da aplicação
 
 - [x] A senha do usuário precisa estar criptografada;
 - [x] Os dados da aplicação precisam estar persistidas em um banco PostgreSQL;
 - [x] Todas listas de dados precisam estar paginadas com 20 itesn por página;
-- [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
+- [x] O usuário deve ser identificado por um JWT (JSON Web Token);
+
+<div id="footer" align="center">
+<a href="https://www.linkedin.com/in/pedro-schinke-17b866223/" target="_blank">
+<img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+</a>
+<a href = "mailto:pedro.schinke@outlook.com">
+<img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+</a>
+</div>
